@@ -1,0 +1,39 @@
+{
+  "name": "Estrutura", 
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedFirst": {
+      "$path": "src/replicatedFirst"
+    },
+
+    "ReplicatedStorage": {
+      "$path": "src/replicatedStorage"
+    },
+
+    "ServerScriptService": {
+      "$path": "src/serverScriptService"
+    },
+
+    "ServerStorage": {
+      "$path": "src/serverStorage"
+    },
+
+    "StarterGui": {
+      "$path": "src/starterGui"
+    },
+
+    "StarterPack": {
+      "$path": "src/starterPack"
+    },
+
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "$path": "src/starterPlayer/StarterPlayerScripts"
+      },
+       "StarterCharacterScripts": {
+        "$path": "src/starterPlayer/StarterCharacterScripts"
+      }
+    }
+  }
+}
