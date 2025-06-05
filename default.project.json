@@ -1,39 +1,55 @@
 {
-  "name": "Estrutura", 
+  "name": "Project",
   "tree": {
     "$className": "DataModel",
-
-    "ReplicatedFirst": {
-      "$path": "src/replicatedFirst"
-    },
-
-    "ReplicatedStorage": {
-      "$path": "src/replicatedStorage"
-    },
-
     "ServerScriptService": {
-      "$path": "src/serverScriptService"
+      "$className": "ServerScriptService",
+      "$ignoreUnknownInstances": true,
+      "$path": "src/ServerScriptService"
     },
-
     "ServerStorage": {
-      "$path": "src/serverStorage"
+      "$className": "ServerStorage",
+      "$ignoreUnknownInstances": true,
+      "$path": "src/ServerStorage"
     },
-
     "StarterGui": {
-      "$path": "src/starterGui"
+      "$className": "StarterGui",
+      "$ignoreUnknownInstances": true,
+      "$path": "src/StarterGui"
     },
-
     "StarterPack": {
-      "$path": "src/starterPack"
+      "$className": "StarterPack",
+      "$ignoreUnknownInstances": true,
+      "$path": "src/StarterPack"
     },
-
     "StarterPlayer": {
-      "StarterPlayerScripts": {
-        "$path": "src/starterPlayer/StarterPlayerScripts"
+      "$className": "StarterPlayer",
+      "StarterCharacterScripts": {
+        "$className": "StarterCharacterScripts",
+        "$ignoreUnknownInstances": true,
+        "$path": "src/StarterPlayer/StarterCharacterScripts"
       },
-       "StarterCharacterScripts": {
-        "$path": "src/starterPlayer/StarterCharacterScripts"
-      }
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "$ignoreUnknownInstances": true,
+        "$path": "src/StarterPlayer/StarterPlayerScripts"
+      },
+      "$ignoreUnknownInstances": true
+    },
+    "Workspace": {
+      "$className": "Workspace",
+      "$ignoreUnknownInstances": true,
+      "$path": "src/Workspace"
+    },
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "$ignoreUnknownInstances": true,
+      "$path": "src/ReplicatedStorage"
+    },
+    "ReplicatedFirst": {
+      "$className": "ReplicatedFirst",
+      "$ignoreUnknownInstances": true,
+      "$path": "src/ReplicatedFirst"
     }
   }
 }
